@@ -306,26 +306,8 @@ color: white;
   right: -100px;
   top: 80px;
 }
-@media only screen and (max-width: 480px){
-  .sales{
-    width: 50%;
-    top: 310px;
-  }
-  #cart{
-    left: -15px;
-  }
-  .nav-link{
-    font-size: 1em;
-    
-  }
-  .options{
-    font-size: 12px;
-}
-  a:hover{
-    appearance: none;
-  }
-}
-@media only screen and (max-width: 800px){
+
+@media only screen and (max-width: 500px){
   .nav-link{
     font-size: 1em;
     padding: 0;
@@ -373,9 +355,26 @@ color: white;
   #contact-us{
     font-size: 3em;
   }
-  
+  .sales{
+    width: 50%;
+    top: 310px;
+  }
+  #cart{
+    left: -15px;
+  }
+  .nav-link{
+    font-size: 1em;
+    
+  }
+  .options{
+    font-size: 12px;
+}
+  a:hover{
+    appearance: none;
+  }
 }
  
+
 
 
 
