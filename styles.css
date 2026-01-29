@@ -1,0 +1,193 @@
+:root{
+  --highlight: rgb(200, 50, 70);
+}
+body{
+  margin: 0;
+}
+
+#navbar{
+  position: fixed;
+  display: flex;
+  justify-content: flex-start;
+  width: 100vw;
+  height: 70px;
+  top: 0; background-color: var(--highlight);
+ z-index: 999;
+  
+}
+a{
+  text-decoration: none;
+  color: white;
+  
+}
+.nav-link, #profile-link{
+  padding: 8px 8px 8px 8px;
+ font-weight: bold;
+  margin: 16px;
+  cursor: pointer;
+  font-size: 1.25em;
+  width: 10%;
+}
+#welcome-section{
+  max-height: 100vh;
+  min-height: 800px;
+  background:linear-gradient(rgb(90, 90, 90), rgb(40,40,40));
+  text-align: center;
+  color: white;
+  position: relative;
+  
+}
+h1{
+  position: relative;
+  top: 80px;
+  font-size: 4rem;
+}
+#job-title{
+  position: relative;
+  top: 50px;
+  font-size: 2rem;
+  color: var(--highlight);
+  font-style: italic;
+}
+#project-section{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  width: 100vw; 
+  background: linear-gradient( rgb(40,40,40),rgb(90, 90, 90));
+  flex-wrap: wrap;
+  gap: 15px;
+  margin: 0;
+
+
+}
+.project-tile{
+  position: relative;
+  min-width: 300px;
+  max-width: 30vw;
+  max-height: 40vh;
+  min-height: 275px;
+  top: 20px;
+  border: 1px solid black;
+  border-radius: 10px;
+  background: gray;
+  
+  
+}
+.project-tile img{
+  min-width:300px;
+  max-width: 30vw;
+  max-height: 40vh;
+  min-height: 275px;
+  border-radius: 10px;
+  
+}
+.skills{
+    position: relative;
+    top:30px;
+    
+}
+
+#certs{
+    width: 75vw;
+    max-width: 500px;
+    position:relative;
+    top: 60px;
+    border-radius: 15px;
+    box-shadow: 10px 10px 10px rgb(36, 23, 23);
+    
+}
+.themes{
+    color: white; 
+    padding: .5rem; 
+    font-style:italic;
+    font-size: 2rem;
+    text-decoration: underline;
+    text-align:center;
+    background-color:var(--highlight);
+    margin: 0;
+    position:relative;
+    
+}
+/* contact page */
+#contact-container{
+  display: flex;
+  gap: 40px;
+  position: relative;
+  background: linear-gradient( rgb(40,40,40),rgb(90, 90, 90));
+  top: 100px;
+  width: 100%;
+ justify-content: space-evenly;  
+ 
+}
+.contact-page{
+  background: linear-gradient( rgb(40,40,40),rgb(90, 90, 90));
+  
+}
+
+#contact-us{
+  position: relative;
+  top: 90px;
+  margin: 20px;
+  color: white;
+  text-align: center;
+}
+#contact-form{
+ max-width: 500px;
+ width: 80%;
+ margin: 20px;
+}
+#contact-name{
+  display: block;
+ width: 100%;
+ min-width: 120px;
+ min-height: 25px;
+ margin: 15px 0;
+}
+.contact-label{
+color: white;
+}
+#contact-email{
+  display: block;
+  width: 100%;
+  min-width: 120px;
+  min-height: 25px;
+  margin: 15px 0;
+  
+}
+#comments{
+  display: block;
+  width: 100%;
+  height: 25%;
+  min-height: 200px;
+  margin: 15px 0;
+}
+#contact-submit{
+  height: 50px;
+  width: 150px;
+  display: block;
+  margin: 10px auto 20px auto;
+}
+/* Bio page */
+#bio{
+  width: 60%;
+  line-height: 1.75em;
+  font-size: 1.5em;
+  color: white;
+  border: 3px solid gray;
+  border-radius: 10px;
+  padding: 5px 20px;
+  margin: 70px auto;
+}
+@media only screen and (min-width: 750px){
+  #project-section{
+    flex-direction: row;
+    justify-content: space-evenly;
+  gap: 15px;
+  
+  }
+  .project-tile{
+    margin: 20px;
+  }
+}
