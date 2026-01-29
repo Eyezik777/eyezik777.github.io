@@ -190,4 +190,13 @@ color: white;
   .project-tile{
     margin: 20px;
   }
+  
 }
+@media only screen and (min-width: 400px)
+{
+  #nav-link{
+    font-size: 0.75em;
+    margin: 8px;
+    
+  }
+
