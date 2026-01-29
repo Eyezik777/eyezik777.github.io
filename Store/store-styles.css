@@ -306,7 +306,7 @@ color: white;
   right: -100px;
   top: 80px;
 }
-@media only screen and (max-width: 600px){
+@media only screen and (max-width: 480px){
   .sales{
     width: 50%;
     top: 310px;
@@ -323,6 +323,8 @@ color: white;
 }
   a:hover{
     appearance: none;
+  }
+}
 @media only screen and (max-width: 800px){
   .nav-link{
     font-size: 1em;
@@ -374,6 +376,7 @@ color: white;
   
 }
  
+
 
 
 
