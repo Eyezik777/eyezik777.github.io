@@ -201,5 +201,12 @@ color: white;
   #nav-bar{
     justify-content: flex-start;
   }
+  }
+  .project-tile{
+    max-width: 250px;
+    max-height: 250px;
+  }
 }
+}
+
 
